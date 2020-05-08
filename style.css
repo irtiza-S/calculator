@@ -50,12 +50,12 @@ body {
 
 }
 
-.output #prevOperand{
+.output #previousDisplayValue{
     color: rgba(255,255,255,.75);
     font-size: 1.5rem;
 }
 
-.output #currentOperand{
+.output #currentDisplayValue{
     color: white;
     font-size: 2.5rem;
 
