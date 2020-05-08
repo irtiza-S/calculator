@@ -1,8 +1,8 @@
 /* utitilites */
 body {
-    background: #a8ff78;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #78ffd6, #a8ff78);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #78ffd6, #a8ff78); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #396afc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2948ff, #396afc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2948ff, #396afc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-size: 100%;
     font-family: 'Fredoka One', sans-serif;
     color: black;
@@ -18,7 +18,7 @@ body {
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
     grid-template-rows: minmax(120px, auto) repeat(5,100px);
-
+    
 } 
 
 .container > button {
@@ -39,7 +39,8 @@ body {
 
 .output{
     grid-column: 1 / -1;
-    background-color: rgba(0, 0, 0, .75);
+    /* background-color: rgba(0, 0, 0, .75); */
+    background-color: rgba(0, 20, 136, 0.75);
     display:flex;
     align-items: flex-end;
     justify-content: space-around;
@@ -47,6 +48,7 @@ body {
     padding: 10px;
     word-wrap: break-word;
     word-break: break-all;
+    
 
 }
 

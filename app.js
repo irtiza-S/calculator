@@ -28,7 +28,8 @@ let multiply = (num1, num2) => {
 }
 let divide = (num1, num2) => {
     if (num1 === '0' || num2 === '0'){
-        return 'Error you can\'t divide by zero.'
+        return result = 'Error';
+        
     }
     result = Math.round((Number(num1) / Number(num2)) * 100) / 100;
     return result;
@@ -117,10 +118,6 @@ function compute(){
     equalsBtn.addEventListener('click', (e) => {
         displayValue = currentDisplayValue.textContent;
         operate(op, pendingValue, displayValue);
-        if(op === '/' && (displayValue === '0' || pendingValue === '0')){
-            currentDisplayValue.textContent = 'Error';
-            
-        }
         console.log(result);
         pendingValue = '';
         pendingDisplayValue.innerText = pendingValue
